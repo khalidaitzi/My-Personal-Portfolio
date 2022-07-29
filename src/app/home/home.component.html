@@ -1,0 +1,308 @@
+<nav class="flex-container">
+  <a style="text-decoration: underline;text-decoration-color: #1E90FF" href="">Home</a>
+  <a style="text-decoration: underline;text-decoration-color: #1E90FF" href="#section-two">About</a>
+  <a style="text-decoration: underline;text-decoration-color: #1E90FF" href="#section-five">Portfolios</a>
+  <a style="text-decoration: underline;text-decoration-color: #1E90FF" href="#section-six">Contact</a>
+</nav>
+
+<!-- ===============  Scroll to Top button =============== -->
+<div [ngClass]="showScrollButton ? 'scroll-button show-scroll-button' : 'scroll-button'" (click)="moveToTop()">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path fill="currentColor" d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path>
+  </svg>
+</div>
+
+<!-- ===============  Section 1 =============== -->
+
+<div id="section-one">
+  <img id="rectangle-one" alt="" src="assets/rectangle_midnight_blue.svg">
+  <img id="triangle-one" alt="" src="assets/triangle_humming_bird.svg">
+  <img id="vector-one" alt="" src="assets/ellipse_yellow.svg">
+  <img id="vector-two" alt="" src="assets/vector_pink.svg">
+  <img id="vector-three" alt="" src="assets/vector_midnight_blue.svg">
+
+  <div id="social-box">
+    <a href="https://github.com/khalidaitzi" target="_blank">
+      <img id="github-social" class="social-icons" alt="Github Link" style="height:45px ;width: 45px;" src="assets/github.png">
+    </a>
+    <a href="https://www.instagram.com/khalid_ait_zi/" target="_blank">
+      <img id="insta-social" class="social-icons" alt="Instagram Link" style="height:45px ;width: 45px;" src="assets/insta_outline.png">
+    </a>
+    <a href="https://www.linkedin.com/in/khalid-ait-zi-243523218" target="_blank">
+      <img id="twitter-social" class="social-icons" style="height:40px ;" alt="Twitter Link" src="assets/social/linkedin.svg">
+    </a>
+  </div>
+
+  <div id="section-one-main" style="margin-top: -80px">
+    <div id="intro">
+      <p class="color-black-russian text-intro"><span style="color: #1E90FF;">Hello,</span> I am AIT ZI KHALID</p>
+      <h1 class="color-prussian-blue">BIG DATA & IOT Student</h1>
+      <p class="color-rock-blue subtext">At ENSAM Casablanca,from Morroco</p>
+      <div style="margin-top: 60px">
+        <a href="mailto:aitzikhalid@gmail.com" target="_blank"><button class="button-pink">Send To Me</button></a>
+        <a href="static/Cv.pdf" target="_blank"><button class="button-outline" style="color: #1E90FF;">Get My CV</button></a>
+      </div>
+    </div>
+    <!--src="assets/section_one_main.svg"-->
+    <img class="profile_pic" style="border-radius: 50%;margin-right: -150px;" id="me-one" alt="My Photo" src="assets/kh.png">
+  </div>
+</div>
+
+<!-- ===============  Section 2 =============== -->
+
+<div id="section-two">
+  <div class="card">
+    <div class="section-heading">
+      <p class="color-dark-pink section-heading-paragraph" style="color: #1E90FF">WHO AM I</p>
+      <h3 class="section-heading-text">ABOUT ME</h3>
+    </div>
+    <br>
+    <p class="color-rock-blue about-paragraph" style="text-align: center">I'm Khalid, a 23-year-old</p>
+    <p class="color-rock-blue about-paragraph">
+      I've always been fascinated by technology, and as far as I can remember I have always wanted to do something with
+      computers or in other words I've always wanted to be a programmer which I didn't know at that time. Parallel to High
+      School, I started teaching myself how to code. Spent countless hours on YouTube watching tutorials, reading blog
+      posts on the internet and writing code. I started teaching myself how to make full stack with spring boot in backend 
+      and Thymleaf - Angular in the FrontEnd apps which was an amazing experience.
+      <br><br>
+      In  01/2023  I need traineeship for my end of studies project, In machine learning or artificial intelligence
+      <br><br>
+      I always want to learn more, do more, and be more. I'm hard-working, super curious, passionate, committed, and
+      also a fast learner!</p>
+  </div>
+
+  <img id="triangle-two" alt="" src="assets/triangle_border_midnight_blue.svg">
+  <img id="triangle-three" alt="" src="assets/triangle_yellow.svg">
+</div>
+
+<!-- ===============  Section 3 =============== -->
+<div id="section-three">
+  <img id="vector-four" alt="" src="assets/vector_pink.svg">
+  <img id="rectangle-two" alt="" src="assets/rectangle_midnight_blue.svg">
+  <img id="triangle-five" alt="" src="assets/triangle_humming_bird.svg">
+  <img id="vector-five" alt="" src="assets/ellipse_yellow.svg">
+
+  <div class="section-heading">
+    <p class="color-dark-pink section-heading-paragraph" style="color: #1E90FF">SKILLS</p>
+    <h3 class="section-heading-text">TECH STACK</h3>
+  </div>
+
+  <div id="section-three-container" class="flex-container">
+    <img class="tech_stack_pic" alt="" src="assets/tech_stack_image.svg">
+    <div id="tech-icons" class="flex-container flex-row">
+      <div class="flex-container flex-column">
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/bi.png">
+          <p>PowerBI</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/icons/android.svg">
+          <p>Android</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/icons/java.svg">
+          <p>Java</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/icons/typescript.svg">
+          <p>Type Script</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/or.png">
+          <p>Oracle</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/icons/angular.svg">
+          <p>Angular</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/rp.png">
+          <p>R</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/hd.png">
+          <p>Hadoop</p>
+        </div>
+      </div>
+      <div class="flex-container flex-column">
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/icons/html.svg">
+          <p>HTML</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/icons/css.svg">
+          <p>CSS</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/cp.png">
+          <p>C-programming</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/icons/python.svg">
+          <p>Python</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/spb.png">
+          <p>Spring</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/icons/mysql.svg">
+          <p>MySql</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/blob.png">
+          <p>MongoDB</p>
+        </div>
+        <div class="flex-container justify-start">
+          <img alt="" src="assets/tl.png">
+          <p>Talend</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img id="triangle-four" alt="" src="assets/triangle_midnight_blue.svg">
+</div>
+
+<!-- ==============  Section 4 ================ -->
+<div id="section-four">
+  <img id="triangle-six" alt="" src="assets/triangle_yellow.svg">
+
+  <div class="card">
+    <div class="section-heading">
+      <p class="color-dark-pink section-heading-paragraph" style="color: #1E90FF">WHAT I DO</p>
+      <h3 class="section-heading-text">SPECIALIZING IN</h3>
+    </div>
+
+    <div id="skill-section" class="flex-container flex-column">
+      <div class="flex-container skill-row">
+        <div class="flex-container">
+          <img alt="" style="height:70px ;width:70px;border-radius: 50%;" src="assets/da.jpg">
+          <div class="skill-text-container">
+            <h3 class="color-prussian-blue skill-text-heading">data analysis</h3>
+            <p class="color-rock-blue skill-text-about">Talend, PowerBI, R language</p>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <img alt="" src="assets/api_development.svg">
+          <div class="skill-text-container">
+            <p class="color-prussian-blue skill-text-heading">Data bases Development</p>
+            <p class="color-rock-blue skill-text-about">Mysql, Oracle, Mongodb</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-container skill-row">
+        <div class="flex-container">
+          <img alt="" src="assets/web_development.svg">
+          <div class="skill-text-container">
+            <h3 class="color-prussian-blue skill-text-heading">Web,Desktop  Development</h3>
+            <p class="color-rock-blue skill-text-about">Web Development with Spring,JavaFX Angular, Thymleaf</p>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <img alt="" src="assets/web_development.svg">
+          <div class="skill-text-container">
+            <p class="color-prussian-blue skill-text-heading">Data Acquisition </p>
+            <p class="color-rock-blue skill-text-about">Arduino IDE,data acquisition with arduino uno </p>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+
+  </div>
+
+  <img id="rectangle-three" alt="" src="assets/rectangle_midnight_blue.svg">
+</div>
+
+<!-- ==============  Section 5 ================ -->
+<div id="section-five">
+  <img id="triangle-seven" alt="" src="assets/triangle_midnight_blue.svg">
+  <img id="vector-six" alt="" src="assets/vector_light_blue.svg">
+  <div class="section-heading">
+    <p class="color-dark-pink section-heading-paragraph" style="color: #1E90FF">MY PROJECTS</p>
+    <h3 class="section-heading-text">PORTFOLIO</h3>
+  </div>
+
+  <div>
+    <div *ngFor="let project of projects; let i = index" [ngClass]="i % 2 === 0 ? 'flex-container' :
+    'flex-container flex-container-reverse'">
+      <div class="project-screenshot">
+        <!--  Container for the project icon  -->
+        <img style="border-radius: 4%;" src="{{project.image}}">
+      </div>
+      <div class="project-description">
+        <!--  Container for project description -->
+        <h3>{{project.name}}</h3>
+        <p class="color-rock-blue">{{project.desc}}</p>
+      </div>
+    </div>
+  </div>
+
+  <img id="triangle-eight" alt="" src="assets/triangle_border_midnight_blue.svg">
+  <img id="vector-seven" alt="" src="assets/vector_pink.svg">
+</div>
+
+
+<!-- ==============  Section 6 ================ -->
+<div id="section-six">
+  <div class="card">
+    <p>Have Any Project In Mind? <span class="color-dark-pink">Say Hello At</span></p>
+    <a id="email" href="mailto:aitzikhalid@gmail.com" target="_blank">aitzikhalid@gmail.com</a>
+  </div>
+  <img id="rectangle-five" alt="" src="assets/rectangle_midnight_blue.svg">
+  <img id="triangle-nine" alt="" src="assets/triangle_humming_bird.svg">
+  <img id="vector-eight" alt="" src="assets/ellipse_yellow.svg">
+</div>
+
+
+<!-- ==============  Footer ================ -->
+<div id="social-links">
+  <div class="flex-container">
+    <a href="https://github.com/khalidaitzi" target="_blank"><img src="assets/social/github.svg"></a>
+    <a href="https://www.instagram.com/khalid_ait_zi/" target="_blank"><img src="assets/social/insta.svg"></a>
+    <a href="https://www.linkedin.com/in/khalid-ait-zi-243523218" target="_blank"><img src="assets/social/linkedin.svg"></a>
+  </div>
+</div>
+
+<!-- ==============  Footer ================ -->
+<footer>
+  <p>COPYRIGHT © {{date| date:'yyyy'}}, AIT ZI</p>
+</footer>
+
+<script>
+  let scroll_button = document.getElementById("scroll-to-top");
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      scroll_button.addClass('show');
+    } else {
+      scroll_button.removeClass('show');
+    }
+  });
+
+  scroll_button.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+  //smooth scrolling
+  $(function () {
+    $('a[href*="#"]:not([href="#"])').click(function () {
+      if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
